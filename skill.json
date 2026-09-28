@@ -1,0 +1,34 @@
+{
+  "name": "genpark-agent-semantic-cache-similarity-deduplicator-skill",
+  "version": "1.0.0",
+  "description": "High-throughput semantic query cache and approximate deduplicator combining exact SHA-256 and cosine similarity threshold matching with LRU eviction.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "semantic-cache",
+    "query-deduplication",
+    "lru-cache",
+    "cosine-similarity",
+    "cost-optimizer",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "get",
+      "description": "Lookup query in semantic cache using exact and approximate cosine matching."
+    },
+    {
+      "name": "put",
+      "description": "Store query and response in semantic cache with TTL."
+    },
+    {
+      "name": "get_metrics",
+      "description": "Fetch hit/miss statistics and estimated tokens saved."
+    },
+    {
+      "name": "run_benchmark_semantic_cache",
+      "description": "Execute semantic query cache verification benchmark."
+    }
+  ]
+}
