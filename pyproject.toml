@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-agent-semantic-cache-similarity-deduplicator-skill"
+version = "1.0.0"
+description = "High-throughput semantic query cache and approximate deduplicator combining exact SHA-256 and cosine similarity threshold matching with LRU eviction."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "memory", "rag", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-agent-semantic-cache-similarity-deduplicator-skill"
